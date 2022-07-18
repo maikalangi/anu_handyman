@@ -1,5 +1,7 @@
+from pyexpat import model
 from django.shortcuts import render
-from django.views.generic import ListView
+from django.views.generic import FormView
+from .models import ContactForm, Contact
 
 # Create your views here.
 
@@ -9,5 +11,7 @@ def home(request):
 def about(request):
     return render(request, 'about.html')
 
-def contact(request):
-    return render(request, 'contact.html')
+class ContactForm(FormView):
+    model = Contact
+    template_name = 'contacts/contact.html'
+    form_class = ContactForm

@@ -7,6 +7,10 @@ body {
   main {
     flex: 1 0 auto;
   }
+
+  .card {
+    border-radius: 10px;
+  }
   
   footer {
     padding-top: 0;
