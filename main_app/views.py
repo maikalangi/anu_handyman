@@ -5,7 +5,7 @@ from django.shortcuts import render, redirect
 from django.views.generic import FormView
 from .models import Contact
 
-# Create your views here.
+# Create views here.
 
 def home(request):
     return render(request, 'home.html')
