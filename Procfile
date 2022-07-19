@@ -1,0 +1,1 @@
+web: gunicorn anu_handyman.wsgi
