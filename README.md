@@ -1,4 +1,4 @@
-# Anu Handyman
+# Anū Handyman
 Website showcasing handyman services and a contact page to reach the handyman
    
 ## Check out the App!
