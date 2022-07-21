@@ -4,6 +4,7 @@ body {
   flex-direction: column;
 }
   
+<<<<<<< HEAD
 .z-depth-2 {
   border-radius: 2px;
 }
@@ -29,6 +30,14 @@ main {
   -webkit-text-stroke-width: 0.7px;
   -webkit-text-stroke-color: black;
   text-shadow: 50px;
+=======
+main {
+  flex: 1 0 auto;
+}
+
+.card {
+  border-radius: 8px;
+>>>>>>> 4cf0d9d (Config Deployment)
 }
 
 footer {

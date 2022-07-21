@@ -13,6 +13,9 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 from pathlib import Path
 from dotenv import load_dotenv
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4cf0d9d (Config Deployment)
 import os
 
 load_dotenv()
@@ -24,9 +27,12 @@ EMAIL_HOST_USER = "apikey"
 EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+<<<<<<< HEAD
 =======
 load_dotenv()
 >>>>>>> 4802716 (adds dotenv)
+=======
+>>>>>>> 4cf0d9d (Config Deployment)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 # BASE_DIR = Path(__file__).resolve().parent.parent
@@ -151,4 +157,8 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 import django_heroku
+<<<<<<< HEAD
 django_heroku.settings(locals())
+=======
+django_heroku.settings(loacls())
+>>>>>>> 4cf0d9d (Config Deployment)
