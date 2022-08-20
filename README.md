@@ -13,10 +13,6 @@ Website showcasing handyman services and a contact page to reach the handyman
   3. PostgreSQL
   4. HTML5
 
-## Screenshots 
-
-
-
 ## Future Enhancements
    
   1. Payment page
