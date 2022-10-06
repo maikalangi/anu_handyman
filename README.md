@@ -1,5 +1,5 @@
 # Anū Handyman
-Website showcasing handyman services and a contact page to reach the handyman
+Website showcasing Handyman services and a contact page to reach the Handyman
    
 ## Check out the App!
 
